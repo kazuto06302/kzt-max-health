@@ -1,0 +1,12 @@
+name: kzt-max-health
+version: '1.0'
+main: com.example.kztMaxHealth.MaxHealthManager
+api-version: '1.20'
+commands:
+  sethealth:
+    description: プレイヤーの最大体力を設定します
+    usage: /sethealth <player> <amount>
+    permission: maxhealth.set
+permissions:
+  maxhealth.set:
+    default: op
